@@ -46,6 +46,15 @@ $posts = [
     ],
 ];
 
+foreach ($posts as $date => $value) {
+    echo "<h2>$date</h2>";
+    
+    foreach ($value as $post) {
+        echo "<h3>$post[title]</h3>";
+        echo "<p>$post[text]</p>";
+        echo "<p>$post[author]</p>";
+    }
+}
 
 
 ?>

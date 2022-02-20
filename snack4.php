@@ -21,10 +21,4 @@ while(count($list_numb) < 15) {
 
 var_dump($list_numb);
 
-
-
-
-
-
-
 ?>
